@@ -10,16 +10,15 @@ module.exports = function countSameElements(collection) {
     collection.forEach(item => {
         var multiPattern = /(\w)-(\d)/; //正则表达式 用于匹配"d-5" \w是非单词字符 \d是数字0-9
 
-
-
         if (multiPattern.test(item)) {
             console.log(item);
             var multiExec = multiPattern.exec(item);
             //以下测试multiExec各个下标指代
+            /*
             console.log("multiExec[0]:" + multiExec[0]);
             console.log("multiExec[1]:" + multiExec[1]);
             console.log("multiExec[2]:" + multiExec[2]);
-            /*
+            
                结果
                multiExec[0]:d-5
                multiExec[1]:d
