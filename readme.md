@@ -1,3 +1,5 @@
+
+![](https://raw.githubusercontent.com/Dexter0ion/gpst-js-basic-collection-practice/master/task3-0failures.PNG)
 # Javascript 集合操作基础练习
 
 - 1.两个集合比较筛选 - 其中包含4个小练习
